@@ -1,2 +1,9 @@
 name: Mr Hyde
 markdown: kramdown
+collections:
+- great_composers
+defaults:
+  - scope:
+      type: great_composers
+    values:
+      layout: default

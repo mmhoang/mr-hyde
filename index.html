@@ -4,4 +4,9 @@ title: Mr Hyde
 planner: List of things to do (on the Index page)
 ---
 The basics of the basics of the basics<br>
-Some Header
+Some Header<br>
+Composers:<br>
+			{% for composer in site.great_composers %}
+			  <h2>{{ composer.name }}</h2>
+			  <h3>{{ composer.fromDate }} - {{ composer.toDate }}, {{ composer.country }}</h3>
+			{% endfor %}

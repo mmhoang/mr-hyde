@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+		</head>
+		<body>
+		This is a special layout.<br><br>
+		The cool thing about Jekyll is how user-friendly it is.  With little or no technical knowledge, a webmaster can easily update site content without fussing over any formatting beyond markdown.  
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<div class="dailyPlanner">
+				Daily Planner goes here:
+				
+				{{ page.planner }}
+			</div>
+			<footer>
+			</footer>
+		</body>
+	</html>
